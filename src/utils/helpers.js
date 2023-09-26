@@ -37,5 +37,5 @@ export function handleRequests(data, error) {
 }
 
 export function checkIsDemo() {
-	if (import.meta.env.VITE_IS_DEMO === 'true') throw new Error('This is demo version, you have not this permission!');
+	if (import.meta.env.VITE_IS_DEMO == 'true') throw new Error('This is demo version, you have not this permission!');
 }
